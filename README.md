@@ -1,7 +1,8 @@
 # carruthersetal2024-masoko-vision-eggspots
-Script used to perform colour calibration and anal fin colour measurements in photographs from A. calliptera 'masoko' 
+This repository contains the scripts used to perform colour calibration and anal fin colour measurements in photographs from A. calliptera 'masoko'. 
+You will also find the bootstap code used to account for the batch effects seen in egg-spot and control colours (see methods).
 
-**instructions -> work in progress**
+**Below is the code to run the colour calibration and colour measurements**
 
 ```
 test.calib = calibrateLab (roidir="~/Desktop/cielab_masoko_colourcalibration/D31J03/roidir", 
